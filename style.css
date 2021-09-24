@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+   --bg-color: #2874f0;
+}
+header{
+    margin-top: 0px;
+    background-color: var(--bg-color);
+     position:sticky; 
+     top: 0;
+      z-index: 1; 
+     
+    
+
+}
+body{
+   
+    background-color:whitesmoke;
+   
+}
+nav{
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logoimage{  
+    
+    width: 75px;
+    height: 22px;
+}
+.logo p{
+    
+    font-size: 12px;
+    color: white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo span{
+    color: #ffe500;
+    font-weight: bold;
+}
+
+#plusicon{
+    width: 10px;
+    height: 10px;
+}
+.searchbar{
+    position: relative;
+}
+.searchbar input{
+  margin-left: 10px;
+  padding: 5px;
+    width: 40vw;
+    height: 4vh;
+   
+}
+.searchbar button{
+     
+    border: 0px;
+    background-color: white; 
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.login button{
+    margin-left: 50px;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: 0px;
+}
+.more{
+    margin-left: 40px;
+    padding: 10px;
+   border:0px;
+   background-color: var(--bg-color);
+   color:var(--bg-color);
+
+}
+#cart{
+    margin:10px;
+    margin-left:35px ;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    min-height: 77vh;
+}
+.belownav{
+    background-color: var(--bg-color);
+    height: 23vh;
+    margin: 7px;
+    display: flex;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+}
+.offer img{
+    /* margin: 10px; */
+    height: 21vh;
+    width: 25vw;
+}
+.catogary{
+    display: flex;
+}
+.catogary img{
+    height: 11vh;
+    width: 8vw;
+}
+.itom{
+    padding-left: 0.5vw;
+}
+.name{
+    color: white;
+    padding-left:2vw;
+}
+.row1{
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+.topoffers{
+ 
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+
+}
+.topoffers p{
+    margin-top: 30px;
+    padding:20px ;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+   /* position: relative; */
+    
+}
+.topoffers button{
+    width: 100px;
+    margin: 0px 80px ;
+    font-size: 19px;
+    padding: 5px 15px;
+    color: white;
+    border: 0px;
+    background-color: var(--bg-color);
+}
+.belowtopoffers{
+    background-image: url(https://i.pinimg.com/originals/b0/8c/d7/b08cd71b5ed24a669aaf473c48c9b2e8.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 20vh;
+    width: 18vw;
+    position: absolute;
+ bottom: 35px;
+ 
+}
+.brands{
+    margin-left: 30px;
+}
+.brands img{
+    width: 15vw;
+    height: 20vh;
+}
+.brands .description{
+    margin: 25px ;
+    padding: 25px 0px;
+    line-height: 26px;
+}
+.price{
+    color: green;
+}
+.discount{
+    color: grey;
+}
+.row2{
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+#fashion{
+   
+        margin-top: 15px;
+        padding:20px ;
+        padding-bottom: 15px;
+        text-align: center;
+        font-size: 30px;
+       /* position: relative; */
+        
+  
+}
+
+.fashiondeals{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMQTDEJG7yapqk0uJdgrYyPrqQ-6yzIgw2og&usqp=CAU);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 20vh;
+    width: 18vw;
+    position: absolute;
+   bottom: 18px;
+ 
+}
+.images2ndrow{
+    height: 40vh;
+}
+.row3{
+    
+        margin-top: 10px;
+        width: 100vw;
+        display: flex;
+        padding: 10px;
+        background-color: white;
+   
+}
+#electronics{
+ 
+   
+        margin-top: 10px;
+        padding:20px ;
+        padding-bottom: 15px;
+        text-align: center;
+        font-size: 30px;
+       /* position: relative; */
+        
+  
+
+}
+.electronicsdiv{
+    background-image: url(/flipkart_images/light_black.jfif);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 20vh;
+    width: 18vw;
+    position: absolute;
+   bottom: 18px;
+ 
+}
+footer{
+    background-color: #212121;
+    height: 14vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+}
+
+footer a {
+    color: skyblue;
+     text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:visited{
+    color:skyblue;
+}
+#designer{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
